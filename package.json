@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "publish": "node ./deploy.sh"
+    "publish": "sudo ./deploy.sh"
   },
   "dependencies": {
     "vuepress": "^1.4.1"
