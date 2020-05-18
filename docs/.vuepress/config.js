@@ -1,15 +1,16 @@
 module.exports = {
-    title: '',
-    description: '',
+    title: '方法小仓库',
+    description: '收集记录了一些常用的方法',
     base: '/code-template/',
     markdown: {
       lineNumbers: true // 代码块显示行号
     },
     themeConfig: {
       nav:[
-        { text: '', link: '/algorithm/' },
-        { text: 'github', link: '2' }, 
-        { text: '知识点文档', link: '3' },
+        { text: '首页', link: '/' },
+        { text: '方法文档', link: '/method'},
+        { text: 'github', link: '/github' }, 
+        { text: '知识点文档', link: '/pages' },
       ],
       displayAllHeaders: true,
       sidebar:{

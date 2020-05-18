@@ -6,6 +6,7 @@ set -e
 # 生成静态文件
 npm run build
 
+rm -rf ../zypyezi.github.io/code-template
 cp -rf docs/.vuepress/dist ../zypyezi.github.io/code-template
 
 cd ../zypyezi.github.io
